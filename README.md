@@ -1,6 +1,6 @@
 Tales of Harmonia Website
 ==========
-Authored by King Long Barry Fung (Design and CSS) and Tian Yuan Zhao (HTML)
+Authored by King Long Barry Fung (Design and CSS), Tian Yuan Zhao (HTML) and Travis Cheung (More)
 
 This repository holds the website for the organization Tales of Harmonia, as designed by Barry during the 2013-2014 academic year.
 
