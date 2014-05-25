@@ -12,12 +12,12 @@ body
 #xslogo{padding: 0; margin-left:auto; margin-right:auto; z-index:100;}
 #header { height:70px; background-color:#;}
 #centerbody { padding-top:40px; padding-bottom:30px}
-#navtohreg { position:absolute; top:40px; right:0px;z-index:100;background-color:white;}
+#navtohreg { position:absolute; top:39px; right:0px;z-index:100;background-color:white;}
 #navtohbutton { position:absolute; top:0px; right:10px;}
 p.text-header { font-size:14px; font-family: tahoma, sans-serif;}
 p.text-center { font-size:15px; padding:30px; text-align:left; font-family: tahoma, sans-serif;}
 
-.background1
+.backgroundIndex1
 {
 	background: url(https://scontent-b-lga.xx.fbcdn.net/hphotos-ash3/t1.0-9/61742_10152523147510183_784407092_n.jpg) no-repeat center center fixed; 
 	  -webkit-background-size: cover;
@@ -26,7 +26,7 @@ p.text-center { font-size:15px; padding:30px; text-align:left; font-family: taho
 	  background-size: cover;
 }
 
-.background2
+.backgroundIndex2
 {
 	background: #FFFFFF;
 	  -webkit-background-size: cover;
@@ -39,6 +39,52 @@ p.text-center { font-size:15px; padding:30px; text-align:left; font-family: taho
 	border-radius:25px;
 }
 
+.backgroundAbout
+{
+	background-image: url('images/Background_Colour.jpg') no-repeat center center fixed; 
+	width:1170px;
+	height:640px;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.backgroundAbout2
+{
+	background-image: url('images/Background_Colour.jpg'); 
+	width:585px;
+	height:320px;
+		  -webkit-background-size: cover;
+}
+
+.backgroundAbout:hover
+{
+	background-image: url('images/Background_Gray.jpg') no-repeat center center fixed; 
+		width:1170px;
+		height:640px;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			font-size:40px;
+			color: #FFFFFF;
+			text-align: center;
+}
+
+.backgroundAbout2:hover
+{
+	background-image: url('images/Background_Gray.jpg');
+		width:585px;
+		height:320px;
+
+			font-size:40px;
+			color: #FFFFFF;
+			text-align: center;
+			
+				  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+}
 black
 .border1 {
 text-shadow: 1px 1px 2px #800080;

@@ -4,26 +4,28 @@
 		<title>Tales of Harmonia</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen"/>
 		<link href="css/Background.css" rel="stylesheet" media="screen">
-		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 	</head>
   <!-- Don't Edit -->
 	<body>
-		<header id="header"> 
+		<nav class ="navbar navbar-default" role="navigation" id ="header">
 			<div class="container">
-				<div class="row">
 					<!-- Logo -->
-					<div class="col-md-6">
-						<a id="logo" href="index.html" title="Tales of Harmonia"><img src="images/logo.png" alt="Flash Web" width="416 " height="128" border="0"/></a>    
+					<div class="navbar-header">
+						<a class="navbar-brand hidden-xs" id="logo" href="index.html" title="Tales of Harmonia"><img src="images/logo.png" alt="Flash Web" width="416 " height="128" border="0"/></a> 
+						<a class="navbar-brand visible-xs" id="xslogo" href="index.html" title="Tales of Harmonia"><img src="images/logo.png" alt="Flash Web" width="416 " height="128" border="0"/></a>
+						<button type="button" id="navtohbutton" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
 					</div>
-					
 					<!-- Navigation Buttons -->
-					<div class="col-md-6" id="navtoh">
-						<ul class="nav nav-tabs nav-justified">
-  
-						</ul>
-						<ul class="nav nav-pills">     
-							<li class="dropdown">
+					<div class="navbar-collapse collapse" id="navtohreg" >
+						<ul class="nav navbar-nav">     
+							<li class="hidden-md hidden-sm">
 								<a href="index.html"><strong style="color:#C30">HOME</strong></a>
 							</li>
 							<li class="dropdown">
@@ -47,22 +49,67 @@
 							<li class="dropdown">
 								<a href="#Memb"><strong style="color:#C30">MEMBERS</strong></span></a>
 							</li>   
-							<li class="dropdown">
+							<li class="hidden-md hidden-sm">
 								<a href="#CU"><strong style="color:#C30">CONTACT</strong></span></a>
 							</li>   
 						</ul>
 					</div>
 				</div>
 			</div>		
-		</header>
-  
-	<body id="body">
-		<div class="background1">
+		</nav>
+<!--		<nav class ="navbar navbar-default mobile visible-xs" role="navigation" id ="header">
+			<div class="container">
+					<div class="navbar-header">
+						<a  id="logoonly" href="index.html" title="Tales of Harmonia"><img src="images/logoonly.png" alt="Flash Web" width=" " height="128" border="0"/></a> 
+						<button type="button" id="navtohbutton" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="navbar-collapse collapse in" id="navtoh">
+						<ul class="nav navbar-nav in">     
+							<li class="hidden-md hidden-sm">
+								<a href="index.html"><strong style="color:#C30">HOME</strong></a>
+							</li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#Abo"><strong style="color:#C30">ABOUT</strong><span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#Mis"><strong>Mission</strong></a></li>
+									<li><a href="#Cur"><strong>Current Season</strong></a></li>
+									<li><a href="#Exe"><strong>Executive</strong></a></li>
+									<li><a href="#Con"><strong>Conductor</strong></a></li>
+								</ul>
+							</li>          
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#Arc"><strong style="color:#C30">ARCHIVE</strong><span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#Pas"><strong>Past Seasons</strong></a></li>
+									<li><a href="#Pho"><strong>Photos</strong></a></li>
+									<li><a href="#ArE"><strong>Archived Events</strong></a></li>
+									<li><a href="https://www.youtube.com/user/talesofharmonia"><strong>Youtube</strong></a></li>
+								</ul>
+							</li>   
+							<li class="dropdown">
+								<a href="#Memb"><strong style="color:#C30">MEMBERS</strong></span></a>
+							</li>   
+							<li class="hidden-md hidden-sm">
+								<a href="#CU"><strong style="color:#C30">CONTACT</strong></span></a>
+							</li>   
+						</ul>
+					</div>
+				</div>
+			</div>		
+		</nav>
+  -->
+		<div class="backgroundIndex1">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-2"><!--Left Spacer --></div>
+					<div class="col-xs-1"><!--Left Spacer --></div>
+					<div class="col-md-1"><!--Left Spacer --></div>
 					<div class="col-xs-8" id="centerbody">
-						<div class="background2">
+						<div class="backgroundIndex2">
 							<!-- This is where all the content goes-->
 							<div class="bs-example">
 								</br>
