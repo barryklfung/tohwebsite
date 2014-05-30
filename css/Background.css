@@ -15,7 +15,7 @@ body
 #navtohreg { position:absolute; top:39px; right:0px;z-index:100;background-color:white;}
 #navtohbutton { position:absolute; top:0px; right:10px;}
 /*usr defined txt and background*/
-
+th{text-align: inherit;}
 p{
 text-indent:.5in;
 }
