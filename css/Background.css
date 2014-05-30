@@ -2,7 +2,7 @@ body
 {	
 	padding: 0;
 	margin: 0;
-	font-family: Lucida Grande, Helvetica, Arial, sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	overflow-x: hidden;
 	overflow-y: scroll;
@@ -14,12 +14,18 @@ body
 #centerbody { padding-top:40px; padding-bottom:30px}
 #navtohreg { position:absolute; top:39px; right:0px;z-index:100;background-color:white;}
 #navtohbutton { position:absolute; top:0px; right:10px;}
-p.text-header { font-size:14px; font-family: tahoma, sans-serif;}
-p.text-center { font-size:15px; padding:30px; text-align:left; font-family: tahoma, sans-serif;}
+/*usr defined txt and background*/
+
+p{
+text-indent:.5in;
+}
+p.important { font-size: 1.3em; font-weight:600;}
+p.text-header { font-size:14px; font-family: 'Helvetica Neue',Helvetica,Arial, sans-serif;}
+p.text-center { padding:15px; text-align:center; font-family: 'Helvetica Neue',Helvetica,Arial, sans-serif;}
 
 .backgroundIndex1
 {
-	background: url(https://scontent-b-lga.xx.fbcdn.net/hphotos-ash3/t1.0-9/61742_10152523147510183_784407092_n.jpg) no-repeat center center fixed; 
+	background: url('../images/Background_Colour.jpg') no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -28,7 +34,7 @@ p.text-center { font-size:15px; padding:30px; text-align:left; font-family: taho
 
 .backgroundIndex2
 {
-	background: #FFFFFF;
+	background: #eee;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -38,53 +44,11 @@ p.text-center { font-size:15px; padding:30px; text-align:left; font-family: taho
 	border:2px solid;
 	border-radius:25px;
 }
-
-.backgroundAbout
+.containerPad
 {
-	background-image: url('../images/Background_Colour.jpg') no-repeat center center fixed; 
-	width:1170px;
-	height:640px;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
+	padding: 10px
 }
-
-.backgroundAbout2
-{
-	background-image: url('../images/Background_Colour.jpg'); 
-	width:585px;
-	height:320px;
-		  -webkit-background-size: cover;
-}
-
-.backgroundAbout:hover
-{
-	background-image: url('../images/Background_Gray.jpg') no-repeat center center fixed; 
-		width:1170px;
-		height:640px;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			font-size:40px;
-			color: #FFFFFF;
-			text-align: center;
-}
-
-.backgroundAbout2:hover
-{
-	background-image: url('../images/Background_Gray.jpg');
-		width:585px;
-		height:320px;
-
-			font-size:40px;
-			color: #FFFFFF;
-			text-align: center;
-			
-				  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-}
+/*begin default background*/
 black
 .border1 {
 text-shadow: 1px 1px 2px #800080;
@@ -148,12 +112,7 @@ margin-bottom: 30px;
 #spacer{
 	color: #1a1a1a;
 }
-
-#motto{
-	letter-spacing:-0.115em;
-	text-align:center;
-	font-family:"Museo Slab",Helvetica,Arial,sans-serif;
-	}
+/*div classes*/
 
 .jumbotron{
 padding-top:15px;
@@ -205,16 +164,23 @@ margin-left: 0px !important;
 .inner-right {
 margin-right: 0px !important;
 }
+/*headings*/
+h1{
+	padding-bottom:0px;
+	font-family:'Myriad Pro Semibold',Helvetica, Arial, sans-serif;
+	font-size:5em;
+}
 
 h1.motto{
-	margin:0px 0 20px 0;
-	padding:0;
-	letter-spacing:-0.05em;
-	//text-transform:uppercase;
-}
+	letter-spacing:-0.03em;
+	padding:0px;
+	text-align:center;
+	font-family:"Myriad Pro Condensed",Helvetica,Arial,sans-serif;
+	font-size:5em	
+	}
 h2{
-	margin:10px 0;
-	padding:0;
+	font-family:'Myriad Pro',Helvetica, Arial, sans-serif;
+	font-size:3em;
 }
 	
 h2.leading{
@@ -231,7 +197,8 @@ h2.heading{
 }
 	
 h3{
-	margin:10px 0;
+	font-family:'Myriad Pro',Helvetica, Arial, sans-serif;
+	font-size:2em;
 	padding:0 0 0 1px;
 }	
 	
@@ -253,6 +220,7 @@ h4.leading{
 	margin:-5px 0 30px 0;
 }
 
+/*user defined fonts*/
 @font-face {
 font-family: 'Myriad Pro Regular';
 font-style: normal;
